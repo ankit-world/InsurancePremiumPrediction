@@ -18,7 +18,7 @@
 ```
 1. git add .
 2. git commit -m "folder structure and data dump in database completed"
-3. git push origin main(after signing in int your github account)
+3. git push origin main(after signing in into your github account)
 ```
 
 # setup.py
@@ -86,6 +86,14 @@
 
 # Requirements.txt
 ```Update the required packages in requirements file and run it```
+
+# Git Update
+```
+1. git add .
+2. git commit -m "utils file and config file updated"
+3. git push origin main(after signing in int your github account)
+```
+
 
 
 
