@@ -52,5 +52,40 @@
 2.Run the main.py file and we will see logger file(defined name) created with exception.
 ```
 
+# Git Update
+```
+1. git add .
+2. git commit -m "logger & exception file updated"
+3. git push origin main(after signing in int your github account)
+```
+
+# Utis.py
+```
+1. Create a function get_collection_as_dataframe to collect data from MongoDB database as dataframe
+```
+
+# .env
+``` Create a .env file and save the url of connection string of database```
+
+# Insurance/__init__.py
+```
+1. Create load_dotenv() function
+```
+
+# config.py
+```
+1. Create EnvironmentVariable class for variable we stored in .env file
+2. define MongoDB url
+```
+
+# Main.py
+```
+1. Update get_collection_as_dataframe() function in main.py
+2. Run main.py after requirement.txt run and we can see details of our data in logs
+```
+
+# Requirements.txt
+```Update the required packages in requirements file and run it```
+
 
 

@@ -7,7 +7,7 @@ client = pymongo.MongoClient("mongodb+srv://mongodb:mongodb@cluster0.pfkbq.mongo
 db = client.test
 
 DATA_FILE_PATH = (r"D:\Insights\MachineLearning\InsurancePremiumPrediction\insurance.csv")
-DATABASE_NAME = "INSUARNCE"
+DATABASE_NAME = "INSURANCE"
 Collection_Name = "INSURANCE_PROJECT"
 
 if __name__ == "__main__":
