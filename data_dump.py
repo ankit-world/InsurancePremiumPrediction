@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     # To convert the csv file to json format
     json_record = list(json.loads(df.T.to_json()).values())
-    print(json_record[0])
+    #print(json_record[0])
 
     # To insert the record in the MongoDB database
     client[DATABASE_NAME][Collection_Name].insert_many(json_record)
