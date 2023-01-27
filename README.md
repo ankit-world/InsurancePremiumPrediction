@@ -94,6 +94,24 @@
 3. git push origin main(after signing in int your github account)
 ```
 
+# Entity Folder
+```
+1. Create 2 files artifact_entity.py and config_entity.py used for training-testing pipelines
+2. Write the respective required code in config_entity.py file
+3. Create classes (TrainingPipelineConfig & DataIngestionConfig,DataValidationArtifact)
+4. Write class (DataIngestionArtifact) in artifact_entity.py file.
+5 Make respective updates in corresponding main.py file
+```
+
+# Git Update
+```
+1. git add .
+2. git commit -m "config and artifact file updated"
+3. git push origin main(after signing in int your github account)
+```
+
+
+
 
 
 
