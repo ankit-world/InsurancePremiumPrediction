@@ -139,12 +139,11 @@
 3. git push origin main(after signing in int your github account)
 ```
 
-# Componenet Folder - Data Transfoemation
+# Componenet Folder - Data Transformation
 ```
 1. Create data_transformation.py file and define class DataTransformation and related functions
 2. Update the config_entity.py, artifact_entity.py,utils.py  and main.py file simultaneously 
-2. The above will create artifacts folder which will have splitted datasets
-2. Update code in main.py
+3. Update code in main.py
 ```
 
 # Git Update
