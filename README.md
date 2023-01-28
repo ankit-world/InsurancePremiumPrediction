@@ -67,6 +67,7 @@
 # .env
 ``` Create a .env file and save the url of connection string of database```
 
+
 # Insurance/__init__.py
 ```
 1. Create load_dotenv() function
@@ -123,6 +124,22 @@
 2. git commit -m "Data Ingestion"
 3. git push origin main(after signing in int your github account)
 ```
+
+# Componenet Folder - Data Validation
+```
+1. Create data_validation.py file and define class DataValidation and related functions
+2. Update the config_entity.py, artifact_entity.py,utils.py  and main.py file simultaneously 
+2. The above will create artifacts folder which will have splitted datasets
+2. Update code in main.py
+```
+
+# Git Update
+```
+1. git add .
+2. git commit -m "Data Validation"
+3. git push origin main(after signing in int your github account)
+```
+
 
 
 
