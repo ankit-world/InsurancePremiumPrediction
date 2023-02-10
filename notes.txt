@@ -1,0 +1,21 @@
+# Insurance Premium Predicttion-->End to End Machine Learning
+
+Technology Stack
+	1. Python Modular Coding
+	2. Machine Learning
+	3. MongoDB database
+	4. AWS cloud
+	5. Apache
+	6. Docker
+	7. Grafana - Grafana is a multi-platform open source analytics and interactive visualization web application. 
+			It provides charts, graphs, and alerts for the web when connected to supported data sources.
+	**CI/CD pipeline
+	8. DVC
+	9. MLFLOW
+
+Database creds
+Connection String - 
+client = pymongo.MongoClient("mongodb+srv://mongodb:<password>@cluster0.pfkbq.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+
+

@@ -153,6 +153,27 @@
 3. git push origin main(after signing in int your github account)
 ```
 
+# Model Trainer file
+```
+1. Create Model_trainer.py file in componenets folder of insuarnce folder
+2. Create ModelTrainer class and its related functions
+3. Update class ModelTrainingConfig in config_entity and artifact_entity, utils.py, main.py
+```
+
+# For new model when new data is received
+```
+1. Create ModelResolver class in predictor.py files in compnent folder and write the required functions
+2. Also Update config_entity.py, artifact_entity.py, main.py file
+```
+
+# Git Update
+```
+1. git add .
+2. git commit -m "Model Training and Evaluation"
+3. git push origin main(after signing in int your github account)
+```
+
+
 
 
 
