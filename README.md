@@ -190,6 +190,20 @@
 2. Creating demo.py for testing purpose running it will give the predictiin results
 3. Create training_pipline.py file under pipeline folder and create required functions with code.
 4. Update demo.py file for training pipline as well
+```
+
+# Web App
+```
+1. Test your application using streamlit web app interface for a single prediction.
+2. We can test this application with different models like XGBoost and creating UI for single prediction.
+```
+
+# Git Update
+```
+1. git add .
+2. git commit -m "Final Commit"
+3. git push origin main(after signing in int your github account )
+```
 
 
 
