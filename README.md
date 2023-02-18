@@ -173,6 +173,23 @@
 3. git push origin main(after signing in int your github account)
 ```
 
+# Update model_evaluation.py
+```
+1. Update model evaluation class with previous model, new model related code
+```
+
+# Model Pusher
+```
+1. Create model_pusher.py file ,create ModelPusher class with required functions write code to push model
+2. Also update config_entity.py, artifact_entity.py, main.py file for model_pusher
+```
+
+# Batch Prediction and training pipline
+```
+1. Create batch_prediction.py file under pipelinefolder can create the required function with code
+2. Creating demo.py for testing purpose running it will give the predictiin results
+3. Create training_pipline.py file under pipeline folder and create required functions with code.
+4. Update demo.py file for training pipline as well
 
 
 

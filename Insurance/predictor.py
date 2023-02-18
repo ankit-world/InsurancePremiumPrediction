@@ -52,7 +52,7 @@ class ModelResolver:
                 raise Exception(f"Transform data is not avaliable")
 
             # return os.path.join(latest_dir, self.traget_encoder_dir_name, TARGET_ENCODER_OBJECT_FILE_NAME)
-            return os.path.join(latest_dir, self.transformer_dir_name,TRANSFORMER_OBJECT_FILE_NAME)
+            return os.path.join(latest_dir, self.transfomer_dir_name,TRANSFORMER_OBJECT_FILE_NAME)
         except Exception as e:
             raise e
 
